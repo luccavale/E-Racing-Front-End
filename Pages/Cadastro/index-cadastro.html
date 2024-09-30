@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style-cadastro.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap" rel="stylesheet">
+</head>
+
+<body class="body">
+    <section class="section1">
+        <header>
+            <div>               
+                <nav class="nav">
+                    <img src="../Home/imgs/logo.png" alt="logo">
+                    <ul>
+                        <li><a href="../Home/index-home.html">Início</a></li>
+                        <li><a href="../Sobre/index-sobre.html">Sobre</a></li>
+                        <li><a href="../Rank/index-rank.html">Rank</a></li>
+                        <li><a href="../Premios/index-premios.html">Prêmios</a></li>
+                    </ul>
+
+                </nav>
+            </div>
+        </header>
+
+    </section>  
+    <div class="div-h1">
+        <h1 class="h1-1">Cadastrar dados pessoais</h1>
+    
+    
+    </div>
+    <main>
+        
+      <div class="div-container-register">
+    
+        <form action="/register" method="POST">
+              <div class="container-register">
+                <div class="input-container">
+                  
+                  <input type="text" name="nome" id="name" placeholder = "Nome" required>
+                </div>
+        
+                <div class="input-container">
+                  
+                  <input type="text" name="sobrenome" id="Sobrenome" placeholder = "Sobrenome" required>
+                </div>
+        
+                <div class="input-container">
+                  
+                  <input type="email" name="email" id="email" placeholder = "E-mail" required>
+                </div>
+        
+                <div class="input-container">
+                  
+                  <input type="email-validation" name="email-validation" id="email-validation" placeholder = "Confirme seu e-mail" required>
+                </div>
+        
+                <div class="input-container">
+                  
+                  <input type="password" name="senha" id="password" placeholder = "Senha" required>
+                </div>
+        
+                <div class="input-container">
+                  
+                  <input type="password" name="password-confirmation" id="password-confirmation" placeholder = "Confirme sua senha" required>
+                </div>
+                <button type="submit">Cadastrar-se</button>            
+              </div>
+
+       
+      </form>
+      </div>
+    
+          
+    
+          
+    
+        </main>
+
+    <footer>
+        <ul>
+            <li><a href="#">duvidas frequentes</a></li>
+            <li><a href="#">política de privacidade</a></li>
+            <li><a href="#">fale conosco</a></li>
+            <li><a href="../Sobre/index-sobre.html">sobre nós</a></li>
+        </ul>
+        <p>© 2024. Todos os direitos reservados</p>
+    </footer>
+    
+
+</body>
+</html>

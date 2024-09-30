@@ -1,0 +1,262 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Inconsolata", monospace;
+    
+
+
+}
+
+.section1{
+    background-image: url("imgs/background.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.section2 {
+    background-image: url("imgs/background-section2.png");
+}
+
+.div-inicio{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: none;
+    padding: 70px;
+    margin: 0 100px;
+    color: #fff;
+    font-size: 26px;
+}
+
+.section-mid{
+    background-color: #0c0c0c;
+    
+
+}
+
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: none;
+    padding: 70px;
+
+}
+.nav ul {
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+
+}
+
+.nav ul li {
+    margin-right: 20px;
+}
+
+.nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease-in-out;
+
+}
+
+nav ul li a:hover {
+    color: #00aaff;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease-in-out;
+
+}
+
+.sign-in {
+    background-color: #1a73e8;
+    color: fff;
+
+}
+
+.sign-in:hover {
+    background-color: #135bb5;
+}
+
+.login {
+    background-color: #f5f5f5; 
+    color: #333;
+}
+
+.login:hover {
+    background-color: #e0e0e0; 
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Estilo da seção principal */
+.main-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 0;
+    height: 100vh; /* Altura igual à primeira seção */
+    background-image: url('imgs/background-section2.png'); /* Adapte a imagem de fundo */
+    background-size: cover;
+    background-position: center;
+}
+
+.rank-section {
+    background-color: #0c0c0c; /* Fundo transparente escuro */
+    color: #fff;
+    border-radius: 10px;
+    padding: 30px;
+    width: 458px;
+    text-align: center;
+    height: 550px;
+    
+   
+    
+}
+
+/* Removido o fundo da seção "Sobre" */
+.sobre-section {
+    color: #fff;
+    width: 664px;
+    text-align: center;
+    height: 439px;
+    
+
+}
+
+.sobre-section p {
+    font-size: 28px;
+    margin-bottom: 60px;
+    
+}
+
+.rank-section h2, .sobre-section h2 {
+    font-size: 48px;
+}
+
+.sobre-section h2 {
+    margin-bottom: 72px;
+}
+
+.rank-section h2 {
+    margin-bottom: 50px;
+
+}
+
+.rank-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.rank-section ul li {
+    font-size: 28px;
+    font-family: "Inconsolata", monospace;
+    margin-bottom: 50px;
+
+}
+
+/* Botões */
+.rank-button, .sobre-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease-in-out;
+    margin-top: 20px;
+}
+
+.rank-button {
+    background-color: #1a73e8;
+    color: #fff;
+    font-family: "Inconsolata", monospace;
+    width: 100%;
+    height: 47px;
+    font-size: 20px;
+}
+
+.rank-button:hover {
+    background-color: #135bb5;
+}
+
+.sobre-button {
+    background-color: #1a73e8;
+    color: #fff;
+    font-family: "Inconsolata", monospace;
+    width: 260px;
+}
+
+.sobre-button:hover {
+    background-color: #135bb5;
+}
+
+
+footer {
+    background-color: #111; 
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    font-size: 14px;
+    font-family: "Inconsolata", monospace;
+
+    height: 120px;
+}
+
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 30px;
+    margin-left: 100px;
+
+}
+
+footer ul li a {
+    color: #ccc;
+    text-decoration: none; 
+    transition: all 0.3s ease-in-out;
+    font-size: 20px;
+}
+
+footer ul li a:hover {
+    text-decoration: underline; 
+    color: #fff;
+}
+
+
+footer p {
+    margin: 0;
+    font-size: 20px;
+    color: #fff;
+    margin-right: 100px;
+}
+
